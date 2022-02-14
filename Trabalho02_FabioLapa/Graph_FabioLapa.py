@@ -30,8 +30,6 @@ class Vertex:
         else:
             return self.val == rhs.val
 
-    # def __eq__(self, rhs):
-
     def __str__(self) -> str:
         return str(self.parent) + " " + str(self.val) + " " + str(self.level)
 
